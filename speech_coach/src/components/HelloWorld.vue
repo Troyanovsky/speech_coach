@@ -29,7 +29,6 @@ const count = ref(0);
   <button @click="count++" class="btn btn-primary">
     count is: {{ count }}
   </button>
-  <button class="btn btn-primary">Button</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
