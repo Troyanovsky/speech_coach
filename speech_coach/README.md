@@ -8,5 +8,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 # Cloning to local
 
+cd to root folder "speech_coach"
 run "npm ci" to install all dependencies
-then run "npm run dev" to start dev server with hot module replacement
+then run "npx vite" to start dev server with hot module replacement
