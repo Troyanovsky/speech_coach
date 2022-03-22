@@ -2,7 +2,7 @@
 
 <template>
   <div class="hero min-h-screen bg-base-200">
-    <div class="hero-content flex-col items-center lg:flex-row">
+    <div class="hero-content flex-col items-center">
       <h1 class="text-3xl font-bold text-center">
         Speak with <span class="text-primary">Confidence</span>
       </h1>
