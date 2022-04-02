@@ -31,7 +31,9 @@
       </div>
       <div class="modal-action">
         <label for="login-modal" class="btn btn-primary"> Log In </label>
-        <label for="login-modal" class="btn btn-primary"> Cancel </label>
+        <label for="login-modal" class="btn btn-outline btn-ghost">
+          Cancel
+        </label>
       </div>
     </label>
   </label>
