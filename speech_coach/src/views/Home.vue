@@ -40,7 +40,7 @@
 
   <!--Landing page hero-->
   <div
-    class="bg-accent bg-opacity-30 h-96 w-96 rounded-full absolute -mt-28 -ml-32"
+    class="bg-accent bg-opacity-30 h-96 w-96 rounded-full absolute -left-28 -top-32"
   ></div>
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content flex-col items-center">
