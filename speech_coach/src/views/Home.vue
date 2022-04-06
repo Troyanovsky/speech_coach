@@ -10,7 +10,7 @@
         class="btn btn-sm btn-circle absolute right-2 top-2"
         >✕</label
       >
-      <h3 class="text-xl font-bold">Hello There! Please log in.</h3>
+      <h3 class="text-xl font-bold pt-4">Hello There! Please log in.</h3>
       <div class="form-control w-full max-w-xs">
         <label class="label">
           <span class="label-text">Email</span>
@@ -31,7 +31,7 @@
       </div>
       <div class="modal-action">
         <label for="login-modal" class="btn btn-primary"> Log In </label>
-        <label for="login-modal" class="btn btn-outline btn-ghost">
+        <label for="login-modal" class="btn btn-outline btn-neutral">
           Cancel
         </label>
       </div>
