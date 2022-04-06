@@ -39,6 +39,9 @@
   </label>
 
   <!--Landing page hero-->
+  <div
+    class="bg-accent bg-opacity-30 h-96 w-96 rounded-full absolute -mt-28 -ml-32"
+  ></div>
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content flex-col items-center">
       <h1 class="text-4xl font-bold text-center text-primary">Speech Coach</h1>
