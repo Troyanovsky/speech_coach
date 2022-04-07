@@ -4,27 +4,26 @@
   <div class="h-screen w-screen bg-base-100">
     <!--Nav Bar-->
     <div
-      class="absolute inset-x-0 top-0 h-16 w-screen bg-primary shadow-md flex flex-row items-center"
+      class="absolute inset-x-0 top-0 h-16 w-screen bg-base-200 shadow-lg flex flex-row items-center justify-between"
     >
-      <div class="text-primary-content justify-self-start">Back</div>
-      <div class="text-center text-primary-content justify-self-center">
-        Page Title
-      </div>
+      <div class="text-primary ml-4">Back</div>
+      <div class="text-center text-primary text-lg"><b>Page Title</b></div>
+      <div class="text-primary invisible mr-4">Back</div>
     </div>
+
+    <!--Page Content-->
 
     <!--Tab Bar-->
     <div
-      class="absolute inset-x-0 bottom-0 flex h-20 w-screen flex-row items-center justify-evenly border-t-2 border-primary border-opacity-30"
+      class="absolute inset-x-0 bottom-0 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
     >
-      <div
-        class="h-16 w-16 flex items-center justify-center rounded-md bg-primary"
-      >
-        <div class="text-primary-content">Record</div>
+      <div class="h-16 w-16 flex items-center justify-center m-auto">
+        <div class="text-primary"><b>Record</b></div>
       </div>
-      <div class="h-16 w-16 flex items-center justify-center rounded-md">
+      <div class="h-16 w-16 flex items-center justify-center m-auto">
         <div class="text-primary">Result</div>
       </div>
-      <div class="h-16 w-16 flex items-center justify-center rounded-md">
+      <div class="h-16 w-16 flex items-center justify-center m-auto">
         <div class="text-primary">Profile</div>
       </div>
     </div>
