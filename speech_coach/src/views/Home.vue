@@ -42,12 +42,15 @@
   <div
     class="bg-accent bg-opacity-30 h-96 w-96 rounded-full absolute -left-28 -top-32"
   ></div>
+  <div
+    class="bg-secondary bg-opacity-30 h-96 w-96 rounded-full absolute -right-20 -bottom-20"
+  ></div>
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content flex-col items-center">
       <h1 class="text-4xl font-bold text-center text-primary">Speech Coach</h1>
       <h2 class="text-2xl text-center">Speak with Confidence</h2>
-      <div class="rounded-lg shadow-lg w-4/5 m-6">
-        <img src="/home_hero_1.png" class="rounded-lg w-full" />
+      <div class="w-7/8">
+        <img src="/home_hero_1.svg" class="w-full" />
       </div>
       <label for="login-modal" class="btn btn-primary modal-button">
         Get Started
