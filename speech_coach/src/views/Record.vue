@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="h-screen w-screen bg-base-100 flex flex-col items-center justify-center"
+    class="h-screen w-screen bg-base-200 flex flex-col items-center justify-center"
   >
     <!--Nav Bar-->
     <div
@@ -37,14 +37,23 @@
       </svg>
     </div>
 
-    <!--Page Content-->
-    <div class="mx-auto my-auto flex flex-col items-center justify-center">
+    <!--Record Button Component-->
+    <div
+      class="mx-auto my-auto flex flex-col items-center justify-center hidden"
+    >
       <div class="text-3xl text-secondary-focus mb-4 visible">02:37</div>
       <div
         class="w-48 h-48 btn btn-circle btn-secondary btn-outline shadow-lg flex items-center justify-center text-2xl text-center"
       >
         Start<br />Recording
       </div>
+    </div>
+
+    <!--Recording Results Component-->
+    <div
+      class="h-fit w-screen bg-blue-400 flex flex-col justify-center items-center"
+    >
+      <h2 class="text-4xl text-primary">Recording Finished!</h2>
     </div>
 
     <!--Tab Bar-->
