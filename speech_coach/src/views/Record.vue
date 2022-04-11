@@ -50,10 +50,24 @@
     </div>
 
     <!--Recording Results Component-->
-    <div
-      class="h-fit w-screen bg-blue-400 flex flex-col justify-center items-center"
-    >
-      <h2 class="text-4xl text-primary">Recording Finished!</h2>
+    <div class="h-fit w-screen flex flex-col justify-center items-center">
+      <h2 class="text-4xl text-primary pb-6">Recording Finished!</h2>
+      <div class="w-2/3 flex flex-col justify-start items-start">
+        <p class="text-neutral text-lg"><b>Length</b></p>
+        <p class="text-neutral text-base">02:22</p>
+        <p class="text-neutral text-lg"><b>Time</b></p>
+        <p class="neutral text-base">2022/02/22 22:22</p>
+        <div class="form-control w-full">
+          <p class="text-neutral text-lg"><b>Name</b></p>
+          <input
+            type="text"
+            placeholder="Input file name"
+            class="input input-bordered w-full max-w-xs"
+          />
+        </div>
+        <div class="btn btn-primary mt-6 btn-wide">Save & Analyze</div>
+        <div class="btn btn-primary btn-outline btn-wide mt-2">Discard</div>
+      </div>
     </div>
 
     <!--Tab Bar-->
