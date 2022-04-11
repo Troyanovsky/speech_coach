@@ -3,6 +3,7 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Record from '../views/Record.vue';
 import Results from '../views/Results.vue';
+import PageNotFound from '../views/PageNoteFound.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -10,6 +11,7 @@ const routes = [
   { path: '/record', name: 'Record', component: Record },
   { path: '/about', name: 'About', component: About },
   { path: '/results', name: 'Results', component: Results },
+  { path: '/:catchAll(.*)', name: 'PageNotFound', component: PageNotFound },
 ];
 
 const router = createRouter({
