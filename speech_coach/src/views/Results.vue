@@ -1,5 +1,6 @@
 <script setup>
 import NavBarVue from '../components/NavBar.vue';
+import TabBarVue from '../components/TabBar.vue';
 </script>
 
 <template>
@@ -41,7 +42,7 @@ import NavBarVue from '../components/NavBar.vue';
     -->
     <NavBarVue pageTitle="Results"></NavBarVue>
 
-    <!--Tab Bar-->
+    <!--Tab Bar
     <div
       class="absolute inset-x-0 bottom-0 bg-base-200 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
     >
@@ -94,5 +95,7 @@ import NavBarVue from '../components/NavBar.vue';
         <div class="text-neutral">Profile</div>
       </div>
     </div>
+    -->
+    <TabBarVue currentPat="Results"></TabBarVue>
   </div>
 </template>
