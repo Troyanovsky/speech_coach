@@ -1,10 +1,12 @@
-<script setup></script>
+<script setup>
+import NavBarVue from '../components/NavBar.vue';
+</script>
 
 <template>
   <div
     class="h-screen w-screen bg-base-200 flex flex-col items-center justify-center"
   >
-    <!--Nav Bar-->
+    <!--Nav Bar
     <div
       class="absolute inset-x-0 top-0 h-16 w-screen bg-base-200 shadow-lg flex flex-row items-center justify-between"
     >
@@ -36,10 +38,12 @@
         />
       </svg>
     </div>
+    -->
+    <NavBarVue pageTitle="Results"></NavBarVue>
 
     <!--Tab Bar-->
     <div
-      class="absolute inset-x-0 bottom-0 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
+      class="absolute inset-x-0 bottom-0 bg-base-200 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
     >
       <div class="h-16 w-16 flex flex-col items-center justify-center m-auto">
         <svg

@@ -1,12 +1,14 @@
-<script setup></script>
+<script setup>
+import NavBarVue from '../components/NavBar.vue';
+</script>
 
 <template>
   <div
     class="h-screen w-screen bg-base-200 flex flex-col items-center justify-center"
   >
-    <!--Nav Bar-->
+    <!--Nav Bar
     <div
-      class="absolute inset-x-0 top-0 h-16 w-screen bg-base-200 shadow-lg flex flex-row items-center justify-between"
+      class="fixed inset-x-0 top-0 h-16 w-screen bg-base-200 shadow-lg flex flex-row items-center justify-between"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +38,8 @@
         />
       </svg>
     </div>
+    -->
+    <NavBarVue pageTitle="Record"></NavBarVue>
 
     <!--Record Button Component-->
     <div
@@ -51,13 +55,15 @@
 
     <!--Recording Results Component-->
     <div class="h-fit w-screen flex flex-col justify-center items-center">
-      <h2 class="text-4xl text-primary pb-6">Recording Finished!</h2>
-      <div class="w-2/3 flex flex-col justify-start items-start">
-        <p class="text-neutral text-lg"><b>Length</b></p>
-        <p class="text-neutral text-base">02:22</p>
-        <p class="text-neutral text-lg"><b>Time</b></p>
-        <p class="neutral text-base">2022/02/22 22:22</p>
-        <div class="form-control w-full">
+      <h2 class="text-4xl text-primary pb-6 text-center">
+        Recording Finished!
+      </h2>
+      <div class="w-2/3 flex flex-col justify-start items-center">
+        <p class="text-neutral text-lg self-start"><b>Length</b></p>
+        <p class="text-neutral text-base self-start">02:22</p>
+        <p class="text-neutral text-lg self-start"><b>Time</b></p>
+        <p class="neutral text-base self-start">2022/02/22 22:22</p>
+        <div class="form-control w-full self-start">
           <p class="text-neutral text-lg"><b>Name</b></p>
           <input
             type="text"
@@ -72,7 +78,7 @@
 
     <!--Tab Bar-->
     <div
-      class="absolute inset-x-0 bottom-0 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
+      class="fixed inset-x-0 bottom-0 bg-base-200 flex h-20 w-screen flex-row items-center justify-center border-t-2 border-neutral border-opacity-30"
     >
       <div class="h-16 w-16 flex flex-col items-center justify-center m-auto">
         <svg
