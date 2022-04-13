@@ -2,10 +2,22 @@
 
 <template>
   <div class="w-screen h-screen flex flex-col justify-center items-center">
-    <h1 class="text-4xl font-bold my-6">
-      Oops...<br /><span class="text-error">404</span>: Page Not Found
-    </h1>
-    <p class="text-lg text-neutral">But we've found this cute cat for you!</p>
-    <img src="https://placekitten.com/300/300" alt="Cat image" />
+    <div class="w-4/5 h-full flex flex-col justify-center items-center">
+      <h1 class="text-4xl font-bold">
+        Oops...<br /><span class="text-error">404 Error</span><br />
+        Page Not Found
+      </h1>
+      <img
+        src="/NotFoundIllustration.svg"
+        alt="Page Not Found"
+        class="w-full"
+      />
+      <button
+        class="btn btn-primary my-6"
+        @click="$router.push({ path: '/home' })"
+      >
+        Return Home
+      </button>
+    </div>
   </div>
 </template>
